@@ -7,7 +7,8 @@ namespace projeto_teste_Git_Aulas99a112
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá mundo!");           
+            Console.WriteLine("Olá mundo!"); 
+            Console.WriteLine("Bom dia!");         
 
             Console.ReadLine();           
             // Comando para ele esperar eu digitar um <ENTER>.
@@ -233,6 +234,11 @@ namespace projeto_teste_Git_Aulas99a112
            //
            // A AÇÃO de salvar uma “versão” do projeto chama-se “commit”.
            //
+           // Então, quando eu altero o projeto, testei, deu certo. 
+           // Opa, quero salvar esta versão porque deu certo.
+           // Uso o termo:
+           // "Vou dar um commit no projeto".
+           //
            // Muitos usam o verbo "commitar". 
            // Commitar é salvar uma alteração (versão) do meu projeto que deu certo.
            //
@@ -269,6 +275,26 @@ namespace projeto_teste_Git_Aulas99a112
            //
            // git log --online 
            // // Mostra os commit realizados (Histórico de versões), de formma mais resumida.
+           //
+           //
+           //
+           //
+           //
+           //
+           // Commits realizados neste projeto de software até a aula 101:
+           // 1o. commit:
+           // Projeto inicial:
+           //   Console.WriteLine("Olá Mundo!";
+           //   Console.ReadLine();
+           //
+           // 2o. commit:
+           // Alteração:
+           //   Console.WriteLine("Olá Mundo!";
+           //   Console.WriteLine("Bom dia!"); // INCLUÍ ESTA LINHA.
+           //   Console.ReadLine();
+           //
+           // Dando o comando
+           // git log // Vejo estes commits.
 
 
            
