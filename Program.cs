@@ -8,7 +8,8 @@ namespace projeto_teste_Git_Aulas99a112
         static void Main(string[] args)
         {
             Console.WriteLine("Olá mundo!"); 
-            Console.WriteLine("Bom dia!");         
+            Console.WriteLine("Bom dia!");
+            Console.WriteLine("Como você está hoje?");        
 
             Console.ReadLine();           
             // Comando para ele esperar eu digitar um <ENTER>.
